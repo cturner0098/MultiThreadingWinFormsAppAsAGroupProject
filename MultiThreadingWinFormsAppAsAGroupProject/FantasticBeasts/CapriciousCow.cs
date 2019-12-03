@@ -1,6 +1,9 @@
 ﻿/*
- * Bill Nicholson
- * nicholdw@ucmail.uc.edu
+ * Name: Christian Turner
+ * Email: turne2cn@mail.uc.edu
+ * Assignment #: In-Class Group
+ * Due Date: 3 December 2019
+ * Course: 2198-1_34IT3045C001
  */
 using System;
 using System.Threading;
