@@ -22,30 +22,27 @@ namespace MultiThreadingWinFormsAppAsAGroupProject
             // store in response
             //result.tosrtring()
             long num = Convert.ToInt64(request);
-            response = Convert.ToString(ComputeLargestPrimeFactor(num));
+            response = ComputeLargestPrimeFactor(num).ToString();
 
         }
         public long ComputeLargestPrimeFactor(long num)
         {
-            long lp = 1;
-            for (long i = num / 2; i >= 1; i--)
+            // declare i to be used in return
+            int i;
+            for (i = 2; i < num; i++)
             {
-                if (IsPrime(i) && num % i == 0) { lp = i; break; }
-            }
-            return lp;
-        }
-        private Boolean IsPrime(long num)
-        {
-            Boolean result = true;
-            for (int i = 2; i < num / 2; i++)
-            {
+                // check if it can be divided (not prime)
                 if (num % i == 0)
                 {
-                    result = false;
-                    break;
+                    // if not prime, divide num by i
+                    num /= i;
+                    // minus i incase the next number is also divisible by current
+                    i--;
                 }
             }
-            return result;
+
+            // return largest prime factor
+            return i;
         }
 
     }
