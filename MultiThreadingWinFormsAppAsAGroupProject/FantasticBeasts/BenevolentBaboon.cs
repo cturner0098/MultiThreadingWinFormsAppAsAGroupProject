@@ -22,7 +22,6 @@ namespace MultiThreadingWinFormsAppAsAGroupProject
         public override void RunThread()
         {
             long num = Convert.ToInt64(request);
-
             long result = ComputeLargestPrimeFactor(num);
             response = Convert.ToString(result);
         }
