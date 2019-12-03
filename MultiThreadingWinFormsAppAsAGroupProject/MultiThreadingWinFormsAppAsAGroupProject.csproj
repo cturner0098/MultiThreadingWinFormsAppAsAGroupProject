@@ -52,7 +52,7 @@
     <Compile Include="FantasticBeasts\AbiogeneticTestCase.cs" />
     <Compile Include="FantasticBeastsNotUsed\AdorableAnt.cs" />
     <Compile Include="FantasticBeastsNotUsed\BenevolentBaboon.cs" />
-    <Compile Include="FantasticBeastsNotUsed\CapriciousCow.cs" />
+    <Compile Include="FantasticBeasts\CapriciousCow.cs" />
     <Compile Include="FantasticBeastsNotUsed\CaptivatingCamel.cs" />
     <Compile Include="FantasticBeastsNotUsed\CasualCheetah.cs" />
     <Compile Include="FantasticBeastsNotUsed\ClimbingCougar.cs" />
