@@ -21,65 +21,34 @@ namespace MultiThreadingWinFormsAppAsAGroupProject
 
         public override void RunThread()
         {
-            Thread.Sleep(2000);
             long num = Convert.ToInt64(request);
 
             long result = ComputeLargestPrimeFactor(num);
             response = Convert.ToString(result);
         }
 
-        /// <summary>
-        /// Computes the largest prime factor of a number
-        /// </summary>
-        /// <param name="num"></param>
-        /// <returns></returns>
         public long ComputeLargestPrimeFactor(long num)
         {
-            long largestPrimeFactor = -1;
-
-            for (long i = (num - 1); i > 0; i--) //Start at num-1 and work down to zero.
+            for (long i = num / 2; i > 1; i--)
             {
-                if (IsPrime(i) && num % i == 0) //Checking to see if our current number, i, is both prime and a factor of our argument.
+
+                if (num % i == 0 && isPrime(i))
                 {
-                    largestPrimeFactor = i;
-                    return largestPrimeFactor;
+                    return i;
                 }
-
             }
+            return 0;
 
-            return largestPrimeFactor;
         }
-
-        private bool IsPrime(long num) //I created this method during my midterm.
+        public bool isPrime(long num)
         {
-            bool isPrime = true;  //Initially set to true.  Will be changed as we test the number.
-
-            if (num == 2)
+            for (long i = 2; i <= num / 2; i++)
             {
-                isPrime = true;
-
+                if (num % i == 0)
+                    return false;
             }
-            else if (num == 1 || num == 0 || num % 2 == 0) //A few edge cases
-            {
-                isPrime = false;
-            }
-            else
-            {
-                for (int i = 3; i <= Math.Sqrt(num); i++) //Loop to test if the possible prime has factors.
-                {
-
-                    if (num % i == 0) //If the number has a factor, the number is not prime.
-                    {
-                        isPrime = false;
-                        break;
-                    }
-
-                }
-            }
-
-            return isPrime; //Return whether or not the number is prime.
+            return true;
         }
-
     }
 }
 
