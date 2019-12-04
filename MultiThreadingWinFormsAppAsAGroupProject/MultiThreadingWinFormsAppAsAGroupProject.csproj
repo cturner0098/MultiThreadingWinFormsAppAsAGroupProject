@@ -49,7 +49,7 @@
     <Compile Include="ClassProcessing.cs" />
     <Compile Include="FantasticBeastsNotUsed\PerspicaciousPorcupine.cs" />
     <Compile Include="FantasticBeasts\AbiogeneticTestCase.cs" />
-    <Compile Include="FantasticBeastsNotUsed\AdorableAnt.cs" />
+    <Compile Include="FantasticBeasts\AdorableAnt.cs" />
     <Compile Include="FantasticBeasts\BenevolentBaboon.cs" />
     <Compile Include="FantasticBeastsNotUsed\CapriciousCow.cs" />
     <Compile Include="FantasticBeasts\CaptivatingCamel.cs" />
