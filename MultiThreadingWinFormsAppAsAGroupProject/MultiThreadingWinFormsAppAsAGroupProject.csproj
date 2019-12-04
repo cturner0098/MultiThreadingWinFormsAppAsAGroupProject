@@ -51,7 +51,7 @@
     <Compile Include="FantasticBeastsNotUsed\PerspicaciousPorcupine.cs" />
     <Compile Include="FantasticBeasts\AbiogeneticTestCase.cs" />
     <Compile Include="FantasticBeastsNotUsed\AdorableAnt.cs" />
-    <Compile Include="FantasticBeastsNotUsed\BenevolentBaboon.cs" />
+    <Compile Include="FantasticBeasts\BenevolentBaboon.cs" />
     <Compile Include="FantasticBeastsNotUsed\CapriciousCow.cs" />
     <Compile Include="FantasticBeastsNotUsed\CaptivatingCamel.cs" />
     <Compile Include="FantasticBeastsNotUsed\CasualCheetah.cs" />
@@ -61,8 +61,8 @@
     <Compile Include="FantasticBeastsNotUsed\FranticFox.cs" />
     <Compile Include="FantasticBeastsNotUsed\FeloniousFeline.cs" />
     <Compile Include="FantasticBeasts\LoquaciousLemur.cs" />
-    <Compile Include="FantasticBeastsNotUsed\MuscularMoose.cs" />
-    <Compile Include="FantasticBeastsNotUsed\PassionatePanda.cs" />
+    <Compile Include="FantasticBeasts\PassionatePanda.cs" />
+    <Compile Include="FantasticBeasts\MuscularMoose.cs" />
     <Compile Include="FantasticBeastsNotUsed\PeacefulPenguin.cs" />
     <Compile Include="FantasticBeastsNotUsed\PropitiousParakeet.cs" />
     <Compile Include="FantasticBeastsNotUsed\RapaciousRobin.cs" />
