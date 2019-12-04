@@ -47,23 +47,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ClassProcessing.cs" />
-    <Compile Include="FantasticBeastsNotUsed\ObedientOwl.cs" />
     <Compile Include="FantasticBeastsNotUsed\PerspicaciousPorcupine.cs" />
     <Compile Include="FantasticBeasts\AbiogeneticTestCase.cs" />
     <Compile Include="FantasticBeastsNotUsed\AdorableAnt.cs" />
-    <Compile Include="FantasticBeastsNotUsed\BenevolentBaboon.cs" />
+    <Compile Include="FantasticBeasts\BenevolentBaboon.cs" />
     <Compile Include="FantasticBeastsNotUsed\CapriciousCow.cs" />
     <Compile Include="FantasticBeastsNotUsed\CaptivatingCamel.cs" />
     <Compile Include="FantasticBeastsNotUsed\CasualCheetah.cs" />
     <Compile Include="FantasticBeastsNotUsed\ClimbingCougar.cs" />
-    <Compile Include="FantasticBeastsNotUsed\DoggedDog.cs" />
+    <Compile Include="FantasticBeasts\DoggedDog.cs" />
     <Compile Include="FantasticBeast.cs" />
     <Compile Include="FantasticBeastsNotUsed\FranticFox.cs" />
     <Compile Include="FantasticBeastsNotUsed\FeloniousFeline.cs" />
-    <Compile Include="FantasticBeastsNotUsed\LoquaciousLemur.cs" />
-    <Compile Include="FantasticBeastsNotUsed\MuscularMoose.cs" />
-    <Compile Include="FantasticBeastsNotUsed\PassionatePanda.cs" />
     <Compile Include="FantasticBeasts\PeacefulPenguin.cs" />
+    <Compile Include="FantasticBeasts\LoquaciousLemur.cs" />
+    <Compile Include="FantasticBeasts\PassionatePanda.cs" />
+    <Compile Include="FantasticBeasts\MuscularMoose.cs" />
     <Compile Include="FantasticBeastsNotUsed\PropitiousParakeet.cs" />
     <Compile Include="FantasticBeastsNotUsed\RapaciousRobin.cs" />
     <Compile Include="FantasticBeastsNotUsed\ReasonableRaccoon.cs" />
@@ -76,6 +75,7 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="FantasticBeastsNotUsed\GallopingGoat.cs" />
+    <Compile Include="FantasticBeasts\ObedientOwl.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx" />
