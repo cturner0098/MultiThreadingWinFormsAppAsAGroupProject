@@ -59,10 +59,10 @@
     <Compile Include="FantasticBeast.cs" />
     <Compile Include="FantasticBeastsNotUsed\FranticFox.cs" />
     <Compile Include="FantasticBeastsNotUsed\FeloniousFeline.cs" />
+    <Compile Include="FantasticBeasts\PeacefulPenguin.cs" />
     <Compile Include="FantasticBeasts\LoquaciousLemur.cs" />
     <Compile Include="FantasticBeasts\PassionatePanda.cs" />
     <Compile Include="FantasticBeasts\MuscularMoose.cs" />
-    <Compile Include="FantasticBeastsNotUsed\PeacefulPenguin.cs" />
     <Compile Include="FantasticBeastsNotUsed\PropitiousParakeet.cs" />
     <Compile Include="FantasticBeastsNotUsed\RapaciousRobin.cs" />
     <Compile Include="FantasticBeastsNotUsed\ReasonableRaccoon.cs" />
