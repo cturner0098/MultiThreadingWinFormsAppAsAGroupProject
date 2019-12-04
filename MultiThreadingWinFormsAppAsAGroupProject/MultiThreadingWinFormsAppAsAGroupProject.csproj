@@ -52,7 +52,7 @@
     <Compile Include="FantasticBeastsNotUsed\AdorableAnt.cs" />
     <Compile Include="FantasticBeasts\BenevolentBaboon.cs" />
     <Compile Include="FantasticBeastsNotUsed\CapriciousCow.cs" />
-    <Compile Include="FantasticBeastsNotUsed\CaptivatingCamel.cs" />
+    <Compile Include="FantasticBeasts\CaptivatingCamel.cs" />
     <Compile Include="FantasticBeastsNotUsed\CasualCheetah.cs" />
     <Compile Include="FantasticBeastsNotUsed\ClimbingCougar.cs" />
     <Compile Include="FantasticBeasts\DoggedDog.cs" />
