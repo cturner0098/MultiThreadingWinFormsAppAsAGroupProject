@@ -47,7 +47,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ClassProcessing.cs" />
-    <Compile Include="FantasticBeastsNotUsed\ObedientOwl.cs" />
     <Compile Include="FantasticBeastsNotUsed\PerspicaciousPorcupine.cs" />
     <Compile Include="FantasticBeasts\AbiogeneticTestCase.cs" />
     <Compile Include="FantasticBeastsNotUsed\AdorableAnt.cs" />
@@ -76,6 +75,7 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="FantasticBeastsNotUsed\GallopingGoat.cs" />
+    <Compile Include="FantasticBeasts\ObedientOwl.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx" />
